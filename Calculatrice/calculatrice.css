@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(94, 167, 231);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    margin-top: 2em;
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 1em;
+    box-shadow: 0 4px 5px rgba(255, 255, 255, 0.623);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.6em;
+}
+.input_affiche{
+    margin-top: 0.5em;
+    outline: none;
+    border: none;
+    height: 50px;
+    text-align: right;
+    font-size: 1.2em;
+    padding-right: 0.4em;
+    background-color: white;
+    border-radius: 0.6em;
+    box-shadow: 0 4px 5px rgba(107, 96, 96, 0.363);
+}
+.input_affiche:focus{
+    outline:none;
+}
+.line{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line .commun{
+    font-size:20px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-color: rgb(177, 255, 229);
+    box-shadow: 0 5px 5px rgb(177, 255, 229);
+    border-radius: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line .equal{
+    width: 80px;
+}
+.list-btn{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
